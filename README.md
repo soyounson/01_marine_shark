@@ -1,4 +1,4 @@
-# 🦈 Shark classification
+# 🦈 Shark image classification and website 
 
 using streamlit and ngrok, build website for shark image classification. 
 using pretrained model (ResNet 50) with ImageNet dataset. 
@@ -135,11 +135,11 @@ if you run several times, at some point, consider to kill ngrok using
 ngrok.kill()
 ```
 
-Enjoy :o)
+🦈 Thanks for reading. Hope to see you again!
 -----------------------------------------------------------------------
 
 ### Reference
-- [Youtube]()
+- [Youtube](https://www.youtube.com/watch?v=kOTVqa2JRwI)
 
 
 ### image sources
