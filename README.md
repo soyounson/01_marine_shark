@@ -11,10 +11,10 @@ using pretrained model (ResNet 50) with ImageNet dataset.
 -----------------------------------------------------------------------
 
 ### Table of contents
-- [ ] prerequisite
-- [ ] Dataset + model 
-- [ ] Create website
-- [ ] RWebsite and upload shark image 
+- [x] prerequisite
+- [x] Dataset + model 
+- [x] Create website
+- [x] Website and upload shark image 
 -----------------------------------------------------------------------
 
 ### prerequisite
@@ -28,6 +28,12 @@ Install libraries
 
 create token on [pyngrok website](https://ngrok.com/)
 
+<p align="center">
+<img src="/image/ngrok.png" width="450">
+</p>
+
+
+then call your token, 
 
 ```
 from pyngrok import ngrok
@@ -94,12 +100,42 @@ url
 
 the output is 
 
+```
+<NgrokTunnel: "https://unwarpable-christi-astonied.ngrok-free.dev" -> "http://localhost:80">
+```
 
+<p align="center">
+<img src="/image/url.png" width="450">
+</p>
+
+
+the website is 
+
+<p align="center">
+<img src="/image/website.png" width="450">
+</p>
+
+<p align="center">
+<img src="/image/website2.png" width="450">
+</p>
 
 ### Website and upload shark image 
 
+after update shark image, the results are below:
+
+<p align="center">
+<img src="/image/website3.png" width="450">
+</p>
 
 
+
+if you run several times, at some point, consider to kill ngrok using 
+
+```
+ngrok.kill()
+```
+
+Enjoy :o)
 -----------------------------------------------------------------------
 
 ### Reference
